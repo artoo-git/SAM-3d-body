@@ -2,6 +2,17 @@
 
 Personal experiments with [SAM-3D Body](https://github.com/facebookresearch/sam-3d-body) — Meta's model for 3D human body mesh estimation from single images and videos.
 
+## Examples
+
+**Static image** — 3D mesh overlay on climbers from a single photo:
+
+![Climbing wall mesh overlay 1](assets/diego_overlay_000.png)
+![Climbing wall mesh overlay 2](assets/diego_overlay_001.png)
+
+**Video** — per-frame mesh estimation (original → mesh overlay → front view → side view):
+
+![Video frame](assets/frame_0025.jpg)
+
 ## Contents
 
 - `test_diego.ipynb` — notebook with the following sections:
